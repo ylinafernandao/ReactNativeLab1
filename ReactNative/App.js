@@ -10,7 +10,14 @@ export default function App() {
         <Text style={styles.title}>CURSOS</Text>
 
         <View style={styles.courseStyle}>
-
+          {/* aqui se debe hacer un for para los nombres de los cursos */}
+          <Course text={'Curso 1'}/>
+          <Course text={'Curso 2'}/>
+          <Course text={'Curso 3'}/>
+          <Course text={'Curso 4'}/>
+          <Course text={'Curso 5'}/>
+          <Course text={'Curso 6'}/>
+          <Course text={'Curso 7'}/>
         </View>
 
       </View>
